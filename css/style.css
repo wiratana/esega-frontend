@@ -34,6 +34,9 @@ p{
     opacity: 20%;
 }
 
+::placeholder {
+    color: #9666A5;
+}
 
 /* Header Component
  *
@@ -375,7 +378,6 @@ p{
 
 .contact-form .costume-form{
     background-color: transparent;
-    color: #9666A5;
     border: 3px solid #9666A5;
     padding: 15px;
 }
@@ -386,4 +388,4 @@ p{
 
 .bg-footer{
     background-color: #000000;
-}   
+}  
