@@ -38,6 +38,18 @@ p{
     color: #9666A5;
 }
 
+.costume-form{
+    background-color: transparent;
+    border: 3px solid #9666A5;
+    padding: 15px;
+}
+
+.costume-form-file{
+    background-color: #9666A5;
+    color: #fff;
+    border: none;
+}
+
 /* Header Component
  *
  */
@@ -376,11 +388,6 @@ p{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.contact-form .costume-form{
-    background-color: transparent;
-    border: 3px solid #9666A5;
-    padding: 15px;
-}
 
 /* Footer Component
  *
