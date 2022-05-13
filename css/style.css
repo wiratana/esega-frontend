@@ -2,8 +2,21 @@
  *
  */
 
+@font-face {
+    font-family: 'ferocityitalic';
+    src: url('http://127.0.0.1:5500/font/ferocity-italic-webfont.woff2') format('woff2'),
+        url('http://127.0.0.1:5500/font/ferocity-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 16px;
+}
+  
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Bungee', cursive;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
+    word-wrap: break-word;
 }
 
 p{
@@ -34,20 +47,11 @@ p{
     opacity: 20%;
 }
 
-::placeholder {
-    color: #9666A5;
-}
-
-.costume-form{
-    background-color: transparent;
-    border: 3px solid #9666A5;
-    padding: 15px;
-}
-
 .costume-form-file{
     background-color: #9666A5;
     color: #fff;
     border: none;
+    padding: 4px;
 }
 
 /* Header Component
@@ -59,7 +63,7 @@ p{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .navbar-brand{
-    font-family: 'Bungee', cursive;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
 }
 .nav-item{
     margin-left: 15px;    
@@ -79,8 +83,14 @@ p{
     padding-top: 100px;
 }
 .hero .text-container h1{
-    font-size: 64px;
+    font-size: 5em;
     padding: 10px;
+}
+@media  screen and (max-width: 576px) {
+    .hero .text-container h1{
+        font-size: 3em;
+        padding: 10px;
+    }
 }
 
 
@@ -149,7 +159,12 @@ p{
     padding: 20px;
 }
 .game-cards .text-container h3{
-    font-size: 48px;
+    font-size: 3em;
+}
+@media  screen and (max-width: 576px) {
+    .game-cards .text-container h3{
+        font-size: 1.5em;
+    }
 }
 
 
@@ -197,6 +212,11 @@ p{
 .prizepool .text-container h3{
     font-size: 4.5em;
     margin-top: 100px;
+}
+@media screen and (max-width: 576px) {    
+    .prizepool .text-container h3{
+        font-size: 2em;
+    }
 }
 
 /* History Component
@@ -354,10 +374,15 @@ p{
     background-color: #6216BA;
     border-radius: 0 0 20px 20px;
     padding: 20px;
-    font-family: 'Bungee', cursive;
+    font-family: 'ferocityitalic', 'Bungee', cursive;
 }
 .registration-card li{
     margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+    .registration-card h3{
+        font-size: 1.5em;
+    }
 }
 
 /* Contact Component
