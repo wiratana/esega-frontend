@@ -32,6 +32,10 @@ p{
     border: none;
 }
 
+.break-word{
+    word-wrap: break-word;
+}
+
 .after-hero .image-container,
 .after-competition .image-container,
 .after-history .image-container{
