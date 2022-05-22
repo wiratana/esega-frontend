@@ -19,6 +19,18 @@ h1,h2,h3,h4,h5,h6{
     word-wrap: break-word;
 }
 
+.big-word{
+    font-family: 'ferocityitalic', 'Bungee', cursive;
+    word-wrap: break-word;
+    font-size: 2em;
+}
+
+.sub-big-word{
+    font-family: 'ferocityitalic', 'Bungee', cursive;
+    word-wrap: break-word;
+    font-size: 1.2em;
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
 }
@@ -192,6 +204,26 @@ p{
     border-radius: 15px;
     height: 10px;
     background-color: #9666A5;
+}
+.schedule .nav-pills{
+    background-color: #230D2D;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.schedule .schedule-tabs{
+    opacity: 80%;
+    color: #9666A5;
+    font-size: 1.5em;
+}
+.schedule .schedule-card{
+    opacity: 80%;
+    display: inline-block;
+    background-color: #65098E;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
